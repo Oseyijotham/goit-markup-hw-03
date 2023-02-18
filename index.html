@@ -7,13 +7,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link
-        href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;500;700;900&family=Roboto:wght@400;500;700;900&display=swap"
-        rel="stylesheet">
-    <style>
-        @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400;500;700;900&family=Roboto:wght@400;500;700;900&display=swap');
-    </style>
-    <link rel="stylesheet" href="node_modules/modern-normalize/modern-normalize.css">
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;500;700;900&family=Roboto:wght@400;500;700;900&display=swap" rel="stylesheet">
+    
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css">
     <link rel="stylesheet" href="css/styles.css">
     <title>Main</title>
 
@@ -22,36 +19,37 @@
 </head>
 
 <body>
-    <section class="outer-footer"></section>
-    <section class="new-body">
-    <div class="container">
-        <header>
+        <header class="header">
+            <div class="container header-container">
             <a href="/index.html" class="logo">WebStudio</a>
             <nav>
                 <ul class="nav-list">
 
-                    <li><a href="index.html" class="nav-item-link nav-item-link-current" style="color: blue;">Studio</a>
+                    <li class="nav-item"><a href="index.html" class="nav-item-link nav-item-link-current" >Studio</a>
                     </li>
-                    <li><a href="portfolio.html" class="nav-item-link">Portfolio</a></li>
-                    <li><a href="#" class="nav-item-link">Contacts</a></li>
+                    <li class="nav-item"><a href="portfolio.html" class="nav-item-link">Portfolio</a></li>
+                    <li class="nav-item"><a href="#" class="nav-item-link">Contacts</a></li>
                 </ul>
             </nav>
 
             <ul class="contacts-list">
-                <li><a href="mailto:example@gmail.ru" class="list-item">info@devstudio.com</a></li>
-                <li><a href="tel:+380961111111" class="list-item">+38 096 111 11 11</a></li>
+                <li class="contacts-item"><a href="mailto:example@gmail.ru" class="list-item">info@devstudio.com</a></li>
+                <li class="contacts-item"><a href="tel:+380961111111" class="list-item">+38 096 111 11 11</a></li>
 
 
             </ul>
-
+        </div>
         </header>
         <main>
             <section class="hero">
+                <div class="container">
                 <h1 class="hero-title">EFFECTIVE SOLUTIONS FOR YOUR BUSINESS</h1>
                 <button type="button" class="button-section">Request our service</button>
+                </div>
             </section>
 
             <section class="features">
+                <div class="container">
                 <ul class="features-list">
                     <li class="features-item">
                         <h3 class="features-headers">ATTENTION TO DETAILS</h3>
@@ -74,10 +72,11 @@
                             work processes.</p>
                     </li>
                 </ul>
-
+            </div>
             </section>
 
             <section class="work-section">
+                <div class="container">
                 <h2 class="work-title">What we do</h2>
                 <ul class="work-list">
                     <li class="work-item"><img class="work-item-image" src="images/box1.jpg" width="370"
@@ -87,8 +86,11 @@
                     <li class="work-item"><img class="work-item-image" src="images/box3.jpg" width="370"
                             alt="Color Selection"></li>
                 </ul>
+                </div>
             </section>
+
             <section class="team-section">
+                <div class="container">
                 <h2 class="team-title">Our Team</h2>
                 <ul class="team-list">
                     <li class="team-item-first"><img class="team-image" src="images/img.jpg" width="270"
@@ -109,25 +111,27 @@
                         <p class="team-item-text">UI Designer</p>
                     </li>
                 </ul>
+                </div>
             </section>
         </main>
+
         <footer>
-            <section class="bottom">
+            <section class="footer">
+                <div class="container footer-container" >
                 <a href="/index.html" class="logo">WebStudio</a>
                 <address class="address-setter">
                     <ul class="contact-info">
 
-                        <li><a class="list-item" href="https://goo.gl/maps/mEacjCX5D3Y1zxKS9">695 Park Ave, New York, NY
+                        <li><a class="contact-item-address" href="https://goo.gl/maps/mEacjCX5D3Y1zxKS9">695 Park Ave, New York, NY
                                 10065, United States</a></li>
-                        <li><a class="list-item" href="mailto:example@gmail.ru">info@example.com</a></li>
-                        <li><a class="list-item" href="tel:+12127724150">+1 212-772-4150</a></li>
+                        <li><a class="contact-item" href="mailto:example@gmail.ru">info@example.com</a></li>
+                        <li><a class="contact-item" href="tel:+12127724150">+1 212-772-4150</a></li>
 
                     </ul>
                 </address>
+                </div>
             </section>
         </footer>
-    </div>
-    </section>
 </body>
 
 </html>

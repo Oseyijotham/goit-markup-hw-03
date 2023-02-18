@@ -1,58 +1,58 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;500;700;900&family=Roboto:wght@400;500;700;900&display=swap" rel="stylesheet">
-    <style>
-    @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400;500;700;900&family=Roboto:wght@400;500;700;900&display=swap');
-    </style>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;500;700;900&family=Roboto:wght@400;500;700;900&display=swap"
+        rel="stylesheet">
+
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css">
     <link rel="stylesheet" href="css/styles.css">
-    <title>Portfolio</title>
+    <title>Main</title>
+
 
 
 </head>
 
 <body>
-    <section class="outer-footer"></section>
-    <section class="new-body">
-        <div class="container">
-    <header>
-        <a href="/index.html" class="logo">Web<span class="second-half">Studio</span></a>
-        <nav>
-        <ul class="nav-list">
-            
-            <li><a href="index.html" class="nav-item-link ">Studio</a></li>
-            <li><a href="portfolio.html" class="nav-item-link nav-item-link-current" style="color: blue;" >Portfolio</a></li>
-            <li><a href="" class="nav-item-link">Contacts</a></li>
-        </ul>
+    <header class="header">
+        <div class="container header-container">
+            <a href="/index.html" class="logo">WebStudio</a>
+            <nav>
+                <ul class="nav-list">
+    
+                    <li class="nav-item"><a href="index.html" class="nav-item-link ">Studio</a>
+                    </li>
+                    <li class="nav-item"><a href="portfolio.html" class="nav-item-link nav-item-link-current">Portfolio</a></li>
+                    <li class="nav-item"><a href="#" class="nav-item-link">Contacts</a></li>
+                </ul>
             </nav>
-            
+    
             <ul class="contacts-list">
-            <li><a href="mailto:example@gmail.ru" class="list-item">info@devstudio.com</a></li>
-            <li><a href="tel:+380961111111" class="list-item">+38 096 111 11 11</a></li>
-        
-        
-        </ul>
+                <li class="contacts-item"><a href="mailto:example@gmail.ru" class="list-item">info@devstudio.com</a></li>
+                <li class="contacts-item"><a href="tel:+380961111111" class="list-item">+38 096 111 11 11</a></li>
+    
+    
+            </ul>
+        </div>
     </header>
     <main>
         <section class="portfolio-main">
-        <div>
-            <nav>
+            <div class="container portfolio-container">
              <ul class="portfolio-nav-list">
-                <li><a href="all.html" class="list-item">All</a></li>
-                <li><a href="web-sites.html" class="list-item">Web-sites</a></li>
-                <li><a href="apps.html" class="list-item">Apps</a></li>
-                <li><a href="design.html" class="list-item">Design</a></li>
-                <li><a href="marketing.html" class="list-item">Marketing</a></li>
+                <li class="portfolio-list-item"><button href="all.html" class="portfolio-link-item">All</a></li>
+                <li class="portfolio-list-item"><button href="web-sites.html" class="portfolio-link-item">Web-sites</a></li>
+                <li class="portfolio-list-item"><button href="apps.html" class="portfolio-link-item">Apps</a></li>
+                <li class="portfolio-list-item"><button href="design.html" class="portfolio-link-item">Design</a></li>
+                <li class="portfolio-list-item"><button href="marketing.html" class="portfolio-link-item">Marketing</a></li>
              </ul>
-            </nav>
-        </div>
 
-        <div class="portfolio-pictures">
           <ul class="portfolio-pictures-list">
             <li><img src="images/project1.jpg" width="370" alt="Technoduck"></li>
             <li><img src="images/Group1.jpg" width="370" alt="Poster New Orlean vs Golden Star"></li>
@@ -67,21 +67,26 @@
         </div>
         </section>
     </main>
-    <footer class="bottom">
-        <a href="/index.html" class="logo">Web<span class="second-half-bottom">Studio</span></a>
 
-        <address class="address-setter">
-        <ul class="contact-info">
-            
-            <li><a class="list-item" href="https://goo.gl/maps/mEacjCX5D3Y1zxKS9">695 Park Ave, New York, NY 10065, United States</a></li>
-            <li><a class="list-item" href="mailto:example@gmail.ru">info@example.com</a></li>
-            <li><a class="list-item" href="tel:+12127724150">+1 212-772-4150</a></li>
-            
-        </ul>
-        </address>
+    <footer class="bottom">
+        <section class="footer">
+            <div class="container footer-container">
+                <a href="/index.html" class="logo">WebStudio</a>
+                <address class="address-setter">
+                    <ul class="contact-info">
+        
+                        <li><a class="contact-item-address" href="https://goo.gl/maps/mEacjCX5D3Y1zxKS9">695 Park Ave, New York,
+                                NY
+                                10065, United States</a></li>
+                        <li><a class="contact-item" href="mailto:example@gmail.ru">info@example.com</a></li>
+                        <li><a class="contact-item" href="tel:+12127724150">+1 212-772-4150</a></li>
+        
+                    </ul>
+                </address>
+            </div>
+        </section>
     </footer>
-    </div>
-    </section>
+    
 </body>
 
 </html>
