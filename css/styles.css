@@ -250,6 +250,11 @@ body {
     grid-gap: 30px;
 }
 
+.team-item {
+    background-color: #FFFFFF;
+}
+
+
 .team-item-title {
     padding-top: 30px;
     margin-bottom: 10px;
@@ -346,7 +351,7 @@ body {
 .portfolio-nav-list {
     display: flex;
     justify-content: center;
-    margin-bottom: 34px;
+    margin-bottom: 50px;
     
 }
 
@@ -355,6 +360,8 @@ body {
 }
 
 .portfolio-link-item {
+    border: none;
+    cursor: pointer;
     padding-top: 6px;
     padding-bottom: 6px;
     padding-left: 20px;
