@@ -55,7 +55,7 @@ body {
 .nav-list {
     display: flex;
     align-items: center;
-    margin-left: 97px;
+    margin-left: 93px;
 }
 
 .nav-item:not(:last-child) {
@@ -90,6 +90,7 @@ body {
 .contacts-list {
     display: flex;
     margin-left: auto;
+    align-items: center;
 }
 
 .contacts-item:not(:last-child) {
@@ -268,7 +269,6 @@ body {
 }
 
 .team-item-text {
-    margin-bottom: 30px;
     font-size: 16px;
     line-height: calc(19/16);
     text-align: center;
@@ -420,4 +420,58 @@ body {
 .portfolio-pic-item {
     background-color: #FFFFFF;
     border: 1px solid #EEEEEE;
+}
+
+/* ICON CLASS */
+
+.header-icon {
+    margin-right: 10px;
+    fill:currentColor;
+}
+
+.team-icon-instagram {
+    margin-top: 28px;
+    margin-left: 44px;
+    margin-bottom: 42px;
+    margin-right: 22px;
+    fill: #757575;
+    cursor: pointer;
+}
+
+/*.team-icon-instagram:hover {
+    fill: none;
+}*/
+
+.team-icon-twitter {
+    margin-top: 28px;
+    margin-bottom: 42px;
+    margin-right: 22px;
+    fill: #757575;
+    cursor: pointer;
+}
+
+.team-icon-facebook {
+    margin-top: 28px;
+    margin-bottom: 42px;
+    margin-right: 22px;
+    fill: #757575;
+    cursor: pointer;
+}
+
+.team-icon-linkedin {
+    margin-top: 28px;
+    margin-bottom: 42px;
+    fill: #757575;
+    cursor: pointer;
+}
+
+.customer-title {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: calc(42/36);
+    text-align: center;
+    letter-spacing: 0.03em;
+    margin-top: 94px;
+    margin-bottom: 50px;
 }
